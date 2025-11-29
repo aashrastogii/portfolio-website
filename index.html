@@ -1,0 +1,118 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Clean portfolio template to showcase your projects — ready for LinkedIn" />
+    <title>Aashi Rastogi — Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="header-left">
+                <a class="brand" href="#">
+                  <img class="brand-avatar" src="images/IMG_6860.jpg" alt="Aashi" />
+                  <span class="brand-name">Aashi's Portfolio <span class="accent"></span></span>
+                </a>
+            </div>
+
+            <nav class="nav" id="nav">
+                <a href="#projects">Projects</a>
+                <a href="https://www.github.com/aashrastogii" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+                <a href="https://www.linkedin.com/in/aashirastogi" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+            </nav>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Open menu">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-copy">
+                    <div class="intro-strip">
+                        <div class="intro-text">
+                            <h4>Hi, I'm Aashi.</h4>
+                        </div>
+                    </div>
+
+                    <h1>Just an engineer that wants to try everything.</h1>
+                    <p class="lead">Learning new skills and building personal projects.</p>
+
+                    <div class="hero-cta">
+                        <a class="btn outline" href="#projects">View projects</a>
+                        <a class="btn outline" href="mailto:aash.rastogii@gmail.com">Contact me</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual" aria-hidden="true">
+                    <img src="images/IMG_6860.jpg" alt="abstract hero graphic" />
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects container">
+            <div class="section-header">
+                <h2>Some things I've been working on</h2>
+            </div>
+
+            <div class="projects-grid">
+                <article class="card" data-project="1">
+                    <img src="images/project1.svg" alt="Project 1 thumbnail">
+                    <div class="card-body">
+                        <h3>Interactive Dashboard</h3>
+                        <p>A lightweight dashboard with real-time charts and filters built with vanilla JS and small utilities.</p>
+                        <div class="card-meta">
+                            <span class="tech">HTML • CSS • JS</span>
+                              <a href="projects/project1.html" class="link" aria-label="Open project 1 details">Details →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card" data-project="2">
+                    <img src="images/project2.svg" alt="Project 2 thumbnail">
+                    <div class="card-body">
+                        <h3>Portfolio Template</h3>
+                        <p>A minimal, accessible template for creative professionals, ready for GitHub Pages and LinkedIn demos.</p>
+                        <div class="card-meta">
+                            <span class="tech">React • Tailwind</span>
+                              <a href="projects/project2.html" class="link" aria-label="Open project 2 details">Details →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card" data-project="3">
+                    <img src="images/project3.svg" alt="Project 3 thumbnail">
+                    <div class="card-body">
+                        <h3>eCommerce Micro-front</h3>
+                        <p>A fast micro-front ready for serverless deployment and incremental builds.</p>
+                        <div class="card-meta">
+                            <span class="tech">Vue • Netlify</span>
+                              <a href="projects/project3.html" class="link" aria-label="Open project 3 details">Details →</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <small>© <span id="year"></span> Aashi Rastogi </small>
+            <div class="social">
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
